@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta description=""> -->
     <title>Clima Service</title>
-    <link rel="stylesheet" href="/venta.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!--Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- fuente oswald -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="logo-container">
@@ -25,152 +26,83 @@
     <header class="header">
 
         <nav class="navbar">
-            <a href="index.html"><span class="icon"><i class="fa-solid fa-house"></i></span> Inicio</a>
-            <a href="about.html"><span class="icon"><i class="fa-solid fa-arrow-right-long"></i></span>Sobre nosotros</a>
-            <a href="install.html"><span class="icon"><i class="fa-solid fa-list"></i></span>Servicios</a>
-            <a href="#products"><span class="icon"><i class="fa-solid fa-check"></i></span>Productos</a>
-            <a href="contact.html"><span class="icon"><i class="fa-solid fa-user"></i></span>Contacto</a>
+            <a href="../index.html"> Inicio</a>
+            <a href="#about">Sobre nosotros</a>
+            <a href="#menu"></span>Servicios</a>
+            <a href="#products">Productos</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contacto</a>
         </nav>
 
         <div class="icons">
-            <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-shopping-cart" id="cart-btn"></div>
-            <div class="fas fa-bars" id="menu-btn"></div>
         </div>
 
-        <div class="search-form">
-            <input type="search" id="search-box" placeholder="">
-            <label for="search-box" class="fas fa-search"></label>
-        </div>
-
-        <div class="cart-items-container" id="carrito">
-            <a href="#" class="btn">Continuar con la compra</a>
-            <a href="#" class="btn" id="vaciar-carrito">Vaciar carrito</a>
-        </div>
     </header>
     <!--header section ends-->
 
     <!-- gallery section starts -->
 
-    <section class="popular" id="popular">
-        <h1 class="heading"> Nuestros <span>productos</span> </h1>
+    <section class="popular">
+        <h2 class="heading"> Nuestros <span>productos</span> </h2>
         <div class="box-container">
             <div class="box">
-                <span class="price">10euros</span>
-                <img src="/images/productos1.jpeg" alt="">
-                <h3>Split</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <div class="img_container">
+                    <img src="/images/productos1.jpeg" alt="">
                 </div>
+                <span class="price">10euros</span>
+                <h3>Split</h3>
+                
                 <a href="#" class="btn">Pide ahora</a>
                 <a href="#" class="btn agregar-carrito" data-id="1" >Añadir al carrito</a>
             </div>
             <div class="box">
-                <span class="price">10euros</span>
-                <img src="/images/productos2.png" alt="">
-                <h3>Conductos</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <div class="img_container">
+                    <img src="/images/productos2.png" alt="">
                 </div>
+                <span class="price">10euros</span>
+                <h3>Conductos</h3>
+                
                 <a href="#" class="btn">Pide ahora</a>
                 <a href="#" class="btn agregar-carrito" data-id="2" >Añadir al carrito</a>
             </div>
             <div class="box">
-                <span class="price">10euros</span>
-                <img src="/images/productos3.png" alt="">
-                <h3>Pared</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <div class="img_container">
+                    <img src="/images/productos3.png" alt="">
                 </div>
+                <span class="price">10euros</span>
+                <h3>Pared</h3>
+                
                 <a href="#" class="btn">Pide ahora</a>
                 <a href="#" class="btn agregar-carrito" data-id="3" >Añadir al carrito</a>
             </div>
             <div class="box">
-                <span class="price">10euros</span>
                 <img src="/images/productos4.png" alt="">
+                <span class="price">10euros</span>
                 <h3>Split</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+                
                 <a href="#" class="btn">Pide ahora</a>
                 <a href="#" class="btn agregar-carrito" data-id="4" >Añadir al carrito</a>
             </div>
             <div class="box">
-                <span class="price">10euros</span>
                 <img src="/images/productos5.png" alt="">
+                <span class="price">10euros</span>
                 <h3>Conductos</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+                
                 <a href="#" class="btn">Pide ahora</a>
                 <a href="#" class="btn agregar-carrito" data-id="5" >Añadir al carrito</a>
             </div>
             <div class="box">
-                <span class="price">10euros</span>
                 <img src="/images/productos6.png" alt="">
+                <span class="price">10euros</span>
                 <h3>Pared</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+                
                 <a href="#" class="btn">Pide ahora</a>
                 <a href="#" class="btn agregar-carrito" >Añadir al carrito</a>
             </div>
         </div>
     </section>
     <!-- gallery section ends -->
-
-    <!-- contact section starts -->
-    <section class="contact" id="contact">
-
-        <h1 class="heading"> <span>Contacta con</span>  nosotros </h1>
-        <div class="row">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.036666639402!2d-0.6829217846588!3d37.97627360831378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6307558b72bc37%3A0x7a53e8610c6bbf2c!2sC.%20de%20Pedro%20Lorca%2C%204%2C%2003181%20Torrevieja%2C%20Alicante!5e0!3m2!1ses!2ses!4v1649281706917!5m2!1ses!2ses"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <form action="https://formspree.io/f/meqnwnlo"
-            method="POST">
-                <h3>Mantente en contacto</h3>
-                <div class="inputBox">
-                    <span class="fas fa-user"></span>
-                    <input type="text" placeholder="Nombre" name="name">
-                </div>
-                <div class="inputBox">
-                    <span class="fas fa-envelope"></span>
-                    <input type="email" placeholder="Correo electrónico" name="email">
-                </div>
-                <div class="inputBox">
-                    <textarea placeholder="Mensaje:" name="message"></textarea>
-                </div>
-                <div class="input">
-                    <input type="submit" value="Contacta ahora" class="btn_1">
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- contact section ends -->
 
     <!-- footer section starts -->
     <section class="footer">
@@ -195,7 +127,9 @@
         <div class="credit">Creado por <span>Santiago Serrato</span> | todos los derechos reservados</div>
     </section>
     <!-- footer section ends -->
-    <script src="js/script.js"></script>
-    <script src="/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
