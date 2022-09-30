@@ -24,19 +24,18 @@
     justify-self: center;
     align-items: center;
     border-radius: 50%;
+    margin: 3rem 3rem;
     width: 15rem;
     height: 15rem;
-    margin: 2rem .8rem 0px 3.5rem;
     position: fixed;
     z-index: 1001;
 }
 
 .logo a img{
-    position: relative;
-    left: .8rem;
-    padding: .8rem;
-    width: 90%;
-    height: 90%;
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
     z-index: 1010;
 }
 
