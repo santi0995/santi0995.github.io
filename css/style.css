@@ -232,10 +232,10 @@ header {
 #about {
   padding: 0 20rem; }
   #about .row, #about .contact1 .row1, .contact1 #about .row1 {
-    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
     background: #13131a;
     flex-wrap: wrap; }
     #about .row .image, #about .contact1 .row1 .image, .contact1 #about .row1 .image {
@@ -802,6 +802,12 @@ p {
     padding: 10rem; }
   .header .navbar a {
     margin: 0 3rem; }
+  #about .row, #about .contact1 .row1, .contact1 #about .row1 {
+    flex-direction: column; }
+    #about .row .image, #about .contact1 .row1 .image, .contact1 #about .row1 .image {
+      flex: 0 0 0; }
+    #about .row .content, #about .contact1 .row1 .content, .contact1 #about .row1 .content {
+      flex: 0 0 0; }
   .products .box-container {
     gap: 3rem; }
   .footer {
@@ -954,7 +960,7 @@ p {
   .home .content {
     padding-top: 0; }
   #about {
-    padding: 0 10rem; }
+    padding: 0 8rem; }
   html {
     font-size: .3rem; }
   footer .links a {
@@ -962,8 +968,6 @@ p {
     color: #fff;
     border: 0.1rem solid rgba(255, 255, 255, 0.3);
     font-size: 1.5rem; }
-  footer .links:hover {
-    background-color: #d3ad7f; }
   .gridContainer {
     grid-template-columns: 200px 200px;
     width: 400px;
@@ -1032,7 +1036,7 @@ p {
           font-size: 3rem;
           padding: 1rem; } }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   html {
     font-size: .3rem; }
   .header {
@@ -1055,7 +1059,7 @@ p {
   #about {
     padding: 0 5rem; }
     #about .row .content, #about .contact1 .row1 .content, .contact1 #about .row1 .content {
-      width: 15rem;
+      width: 25rem;
       margin: 0; }
       #about .row .content h3, #about .contact1 .row1 .content h3, .contact1 #about .row1 .content h3 {
         font-size: 2rem; }
@@ -1063,7 +1067,6 @@ p {
         width: 20em;
         font-size: 1.3rem; }
       #about .row .content .btn, #about .contact1 .row1 .content .btn, .contact1 #about .row1 .content .btn, #about .row .content .btn_1, #about .contact1 .row1 .content .btn_1, .contact1 #about .row1 .content .btn_1 {
-        margin-left: 3rem;
         font-size: 1rem; }
   #menu {
     padding: 0 2rem; }
@@ -1134,9 +1137,3 @@ p {
     font-size: 5rem; }
   .popular .box-container .box .btn, .popular .box-container .box .btn_1 {
     font-size: 2rem; } }
-
-/*
-prueba de optimizacion para moviles de google
-open-graph
-xml sitemaps
-*/

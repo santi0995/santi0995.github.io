@@ -43,6 +43,19 @@
         }
     }
 
+    #about{
+        .row{
+            .image{
+                flex: 0 0 0;
+            }
+            flex-direction: column;
+            .content{
+                flex: 0 0 0;
+            }
+        }
+
+    }
+
     .products{
         .box-container{
             gap: 3rem;
@@ -369,7 +382,7 @@
     }
 
     #about{
-        padding: 0 10rem;
+        padding: 0 8rem;
     }
 
     html{
@@ -385,9 +398,6 @@
             font-size: 1.5rem;
         }
 
-        &:hover{
-            background-color: $main-color;
-        }
     }
 
     .gridContainer{
@@ -510,7 +520,7 @@
     }
 }
 
-@media (max-width:320px){
+@media (max-width:375px){
 
     html{
         font-size: .3rem;
@@ -553,7 +563,7 @@
         .row{
     
             .content{
-                width: 15rem;
+                width: 25rem;
                 margin: 0;
                 h3{
                     font-size: 2rem;
@@ -563,7 +573,6 @@
                     font-size: 1.3rem;
                 }
                 .btn{
-                    margin-left: 3rem;
                     font-size: 1rem;
                 }
             }

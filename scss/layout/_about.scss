@@ -2,9 +2,8 @@
     padding: 0 20rem;
     
     .row{
-        width: 100%;  
-        
         @include propiedades-flex(flex-start,center);
+        width: 100%;  
         background: $black;
         flex-wrap: wrap;
         
