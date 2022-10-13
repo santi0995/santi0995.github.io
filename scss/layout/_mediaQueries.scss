@@ -1,0 +1,716 @@
+@media (max-width:1200px){
+
+
+    .menu .box-container .box img{
+        max-width: 20rem;
+    }
+
+    .home{
+
+        .content{
+            h1{
+                font-size: 5rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+            .btn{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .logo-container{
+        margin: 2rem 1rem 0 2rem;
+        a{
+            img{
+                position: relative;
+                top: 4rem;
+                left: 2rem;
+            }
+        }
+    }
+
+    section{
+        padding: 10rem;
+    }
+
+    .header{
+        .navbar{
+            a{
+              margin: 0 3rem;
+          }
+        }
+    }
+
+    .products{
+        .box-container{
+            gap: 3rem;
+        }
+    }
+
+    .footer{
+        padding: .8rem;
+    }
+
+    .container{
+        width: 70%;
+        .item{
+            div{
+                h2{
+                    font-size: 6rem;
+                }
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .container-slider1{
+        .container{
+            .slider__section1{
+                .title{
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+
+    .popular{
+        margin: 3rem 3rem;
+        padding: 4rem;
+        h1{
+            margin-top: 4rem;
+        }
+        .box-container{
+            h3{
+                font-size: 3rem;
+            }
+            a{
+                font-size: 1.2rem;
+            }
+        }
+    }
+} 
+
+@media (max-width:1024px){
+    
+    .header{
+        padding: 4rem 2%;
+        
+        .navbar {
+            width: 80%;
+            left: 10rem;
+            a{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .logo-container{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    section{
+        padding: 10rem;
+    }
+
+    .home{
+
+        .content{
+            h1{
+                font-size: 4rem;
+            }
+        }
+    }
+
+    #about{
+
+        .row{
+    
+            .content{
+                h3{
+                    font-size: 2.5rem;
+                }
+                p{
+                    max-width: 25em;
+                    font-size: 1.7rem;
+                }
+                .btn{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+
+    .menu {
+        .box-container{
+            .box{
+                img{
+                    max-width: 20rem;
+                    max-height: 20rem;
+                } 
+            }
+        }
+    }
+
+
+    .textContainer1{
+        width: 80%;
+        padding: 5rem;
+        .subTitle{
+            font-size: 15rem;
+        }
+    }
+
+    .container{
+        .item{
+            div{
+                padding: 10rem;
+                h2{
+                    font-size: 6rem;
+                }
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .popular{
+        margin: 4rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:760px){
+
+    .header{
+
+        .navbar {
+            left: 10rem;
+            width: 80%;
+            a{
+                margin: 0 2rem;
+            }
+        }
+    }
+
+    .logo-container{
+        width: 10rem;
+        height: 10rem;
+
+    }
+
+    #about{
+        padding: 0 15rem;
+    }
+  
+
+    html{
+        font-size: .5rem;
+    }
+
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+
+        .content{
+
+            h1{
+            font-size: 4.5rem;
+            }
+            p{
+                text-align: center;
+            }
+        } 
+    }
+
+    .menu {
+        .box-container{
+            .box{
+                h2{
+                   font-size: 2.6rem;
+                } 
+            }
+        }
+    }
+
+    footer .links{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        gap: 1rem;
+
+        a{
+            padding: .7rem 2rem;
+            color: #fff;
+            border: $border;
+            font-size: 1.5rem;
+        }
+
+    }
+
+    .gridContainer{
+        grid-template-columns: 300px 300px;
+        width: 600px;
+        gap:.8rem;
+        .item{
+            height: 300px;
+            width: 300px;
+        }
+    }
+
+    .gridRows{
+        grid-template-columns: 150px 150px;
+        gap: .4rem;
+        .item2{
+            height: 147px;
+            width: 147px;
+        }
+    }
+
+    .container{
+        width: 75%;
+        .item{
+            div{
+                h2{
+                    font-size: 6rem;
+                }
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .container-slider1{
+        .container{
+            .slider__section1{
+                .title{
+                    width: 50%;
+                    padding-right: 5rem;
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+
+    .contact1{
+        .row1{
+            .inputs{
+                margin: 0 auto;
+                flex-wrap: wrap;
+
+                .inputBox1{
+                    margin-top: .5rem;
+                }
+
+            }
+        }
+    }
+
+    .popular{
+        margin: 2rem;
+        padding: 4rem;
+        .box-container{
+            img{
+                width: 80%;
+            }
+            .box{
+                width: 20rem;
+
+                .btn{
+                    font-size: 1rem;
+                }
+
+                span{
+                    font-size: 1rem;
+                    padding: .5rem;
+                    margin: .5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:480px){
+
+    .header{
+        padding: 2rem;
+
+        .navbar{
+            display: none;
+        }
+
+        .icons{
+            div{
+                position: absolute;
+                right: 3rem;
+            }
+        }
+    }
+
+    .logo-container{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .home{
+        .content{
+            padding-top: 0;
+        }
+    }
+
+    #about{
+        padding: 0 10rem;
+    }
+
+    html{
+        font-size: .3rem;
+    }
+
+    footer .links{
+
+        a{
+            padding: .7rem 1rem;
+            color: #fff;
+            border: $border;
+            font-size: 1.5rem;
+        }
+
+        &:hover{
+            background-color: $main-color;
+        }
+    }
+
+    .gridContainer{
+        grid-template-columns: 200px 200px;
+        width: 400px;
+        gap:.8rem;
+        .item{
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    .gridRows{
+        grid-template-columns: 100px 100px;
+        gap: .6rem;
+        .item2{
+            height: 95px;
+            width: 95px;
+        }
+    }
+
+    .textContainer1{
+        width: 90%;
+        padding: 2rem;
+        .subTitle{
+            font-size: 15rem;
+        }
+    }
+
+    .imgContainer{
+        .text{
+            width: 50%;
+        }
+    }
+
+    .container{
+        width: 80%;
+        .item{
+            height: 63vh;
+            img{
+                height: 35rem;
+            }
+            div{
+                padding: 2rem;
+                h2{
+                    font-size: 6rem;
+                }
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .container-slider1{
+        .container{
+            .slider__section1{
+                flex-direction: column;
+                .slider__img1{
+                    display: none;
+                }
+                .title{
+                    text-align: center;
+                    width: 80%;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 7rem;
+                }
+            }
+        }
+    }
+
+    .contact1{
+        .row1{
+            form{
+                padding: 3rem 2rem;
+
+            }
+            .inputs{
+                .inputBox1{
+                    margin-top: .5rem;
+                }
+
+            }
+        }
+    }
+
+    .popular{
+        margin: 1rem;
+        padding: 1rem;
+            h1{
+                font-size: 6rem;
+            }
+
+        .box-container{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            h3{
+                font-size: 8rem;
+            }
+
+            img{
+                width: 80%;
+            }
+            .box{
+                width: 100%;
+                margin: 0;
+                .btn{
+                    font-size: 3rem;
+                }
+
+                span{
+                    font-size: 3rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:320px){
+
+    html{
+        font-size: .3rem;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+    .logo-container{
+        width: 6rem;
+        a{
+            img{
+                top: 3rem;
+                left: 0;
+            }
+        }
+    }
+
+    .home{
+        .content{
+            width: 150px;
+            h1{
+            font-size: 4rem;
+            }
+            p{
+                margin: 1rem 0;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            .btn{
+                padding: 1rem 1rem;
+            }
+        } 
+    }
+
+    #about{
+        padding: 0 5rem;
+
+        .row{
+    
+            .content{
+                width: 15rem;
+                margin: 0;
+                h3{
+                    font-size: 2rem;
+                }
+                p{
+                    width: 20em;
+                    font-size: 1.3rem;
+                }
+                .btn{
+                    margin-left: 3rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    #menu{
+        padding: 0 2rem;
+    }
+
+    .menu{
+        .box-container{
+            .box{
+                padding: 2rem;
+            }
+        }
+    }
+
+    #products{
+        max-width: 80%;
+    }
+
+    .products{
+        .box-container{
+            gap: .1rem;
+            .box{
+                .image{
+                    .image1{
+                        height: 20rem;
+                    }
+                }
+            }
+            
+        } 
+    }
+
+    #review{
+        padding: 0 2rem;
+    }
+
+    #contact{
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .container-slider{
+        .slider__section{
+            .mouse{
+                .mouse-wheel{
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+
+    .textContainer{
+        p{
+            width: 150px;
+        }
+    }
+
+    .textContainer1{
+        width: 90%;
+        padding: .5rem 0;
+        .subTitle{
+            font-size: 10rem;
+        }
+        .history{
+            padding: 0;
+            margin: 0 2rem;
+            p{
+                margin: 0 1rem;
+            }
+        }
+    }
+
+    .gridContainer{
+        grid-template-columns: 120px 120px;
+        width: 240px;
+        gap:.8rem;
+        .item{
+            height: 120px;
+            width: 120px;
+        }
+    }
+
+    .gridRows{
+        grid-template-columns: 60px 60px;
+        gap: .4rem;
+        .item2{
+            height: 55px;
+            width: 55px;
+        }
+    }
+
+    .container{
+        width: 90%;
+        .item{
+            height: 40vh;
+
+            img{
+                width: 50rem;
+            }
+
+            div{
+                padding: 2rem;
+                h2{
+                    font-size: 5rem;
+                }
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .container-slider1{
+        .container{
+            padding-bottom: 10rem;
+            .slider__section1{
+                padding-bottom: 7rem;
+                .title{
+                    text-align: center;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 5rem;
+                }
+            }
+
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .popular{
+        .box-container{
+            h3{
+                font-size: 5rem;
+            }
+
+            .box{
+                .btn{
+                    font-size: 2rem;
+                }
+
+            }
+        }
+    }
+} 

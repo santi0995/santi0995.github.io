@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- <meta description=""> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta description=""> -->
-    <title>Clima Service</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="keywords" content="contacta con nosotros, solicitar presupuesto, asesoría de acuerdo a tus necesidades">
+    <meta name="description" content="Solicita aquí tu presupuesto y te ayudaremos a conocer que equipo se ajusta más a tus necesidades y preferencias">
+    <meta name="author" content="Santiago Serrato">
+    <meta name="copyright" content="Clima service">
     <!--Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- fuente oswald -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contáctanos | Clima Service</title>
 </head>
 <body>
-    <div class="logo-container">
-    <div class="logo">
-        <a href="#home" class="logo"><img src="../images/Logoclimaservice.png" alt="">
-        </a>
-    </div>
-</div>
-    <!--header section starts-->
-    <header class="header">
-
+     <!--header section starts-->
+     <header class="header">
+        <div class="logo-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/Logoclimaservice.png" alt="logoEmpresa">
+            </a>
+        </div>
+        
         <nav class="navbar">
-            <a href="#home"> Inicio</a>
-            <a href="#about">Sobre nosotros</a>
-            <a href="#menu"></span>Servicios</a>
-            <a href="#products">Productos</a>
-            <a href="#review">Reviews</a>
-            <a href="#contact">Contacto</a>
+            <a href="../index.html"> Inicio</a>
+            <a href="../pages/about.html">Sobre nosotros</a>
+            <a href="../pages/install.html">Servicios</a>
+            <a href="../pages/venta.html">Productos</a>
+            <a href="#">Contacto</a>
         </nav>
 
         <div class="icons">
@@ -40,26 +37,41 @@
 
     </header>
     <!--header section ends-->
-
+    <div class="container-slider1">
+        <div class="container">
+            <span class="mouse">
+                <i class="fa-solid fa-arrow-down mouse-wheel"></i>
+              </span>
+            <div class="slider__section1">
+                <img src="../images/AC.png" alt="bannerPrincipal aire acondicionado" class="slider__img1" >
+                <h1 class="title"><span>Contáctanos</span> y atenderemos todas tus inquietudes</h1>
+            </div>
+            <p>Déjanos tu consulta y con gusto nos pondremos en contácto contigo <em>lo más pronto posible</em> </p>
+        </div>
+    </div>
     <!-- contact section starts -->
-    <section class="contact" id="contact">
+    <section class="contact1" id="contact">
 
-        <h1 class="heading"> <span>Contacta con</span>  nosotros </h1>
-        <div class="row">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.036666639402!2d-0.6829217846588!3d37.97627360831378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6307558b72bc37%3A0x7a53e8610c6bbf2c!2sC.%20de%20Pedro%20Lorca%2C%204%2C%2003181%20Torrevieja%2C%20Alicante!5e0!3m2!1ses!2ses!4v1649281706917!5m2!1ses!2ses"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <form action="https://formspree.io/f/meqnwnlo"
-            method="POST">
+        <h2 class="heading"> <span>Contacta con</span>  nosotros </h2>
+        <div class="row1">
+            <form>
                 <h3>Mantente en contacto</h3>
-                <div class="inputBox">
-                    <span class="fas fa-user"></span>
-                    <input type="text" placeholder="Nombre" name="name">
+                <div class="inputs">
+                    <div class="inputBox1">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="Nombre y apellidos" name="name">
+                    </div>
+                    <div class="inputBox1">
+                        <span class="fas fa-phone"></span>
+                        <input type="text" placeholder="Teléfono" name="name">
+                    </div>
                 </div>
-                <div class="inputBox">
-                    <span class="fas fa-envelope"></span>
-                    <input type="email" placeholder="Correo electrónico" name="email">
-                </div>
-                <div class="inputBox">
+                    
+                    <div class="inputBox1">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="Correo electrónico" name="email">
+                    </div>
+                    <div class="inputBox1">
                     <textarea placeholder="Mensaje:" name="message"></textarea>
                 </div>
                 <div class="input">
@@ -71,27 +83,38 @@
     <!-- contact section ends -->
 
     <!-- footer section starts -->
-    <section class="footer">
+    <footer>
 
         <div class="share">
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="wp">
-                <img class="wp__1" src="../images/wallapop-app.png" alt="">
-            </a>
-            <a href="#" class="wp">
-                <img class="wp__2" src="../images/malogo.png" alt="">
-            </a>
+            <ul class="social_icons">
+                <li>
+                    <a href="https://www.facebook.com/lomas1979">
+                        <img src="../images/logo-facebook.png" alt="logoFacebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=%2B34698549221&amp;fbclid=IwAR2YigwsiC0xRFXvz1XLRx4CcvRUB2--X2PNfAjL6yA8oaU9UgMH475AVwI" class="wp">
+                        <img class="wp__1" src="../images/whatssap-logo.png" alt="logoWallapop">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.milanuncios.com/tienda/climafind-s-l-3148.htm" class="wp">
+                        <img class="wp__2" src="../images/malogo.png" alt="logoMilAnuncios">
+                    </a>
+                </li>
+            </ul>
         </div>
+        <h4 class="credit">Tel:<span> 698 54 92 21 - 693 93 30 95</span></h4>
+        <h4 class="credit">Email:<span> climaservice@gmail.com</span></h4>
         <div class="links">
-            <a href="#home">Inicio</a>
-            <a href="#about">Sobre Nosotros</a>
-            <a href="#menu">Menú</a>
-            <a href="#products">Productos</a>
-            <a href="#review">Reviews</a>
-            <a href="#contact">Contacto</a>
+            <a href="/index.html"> Inicio</a>
+            <a href="/pages/about.html">Sobre nosotros</a>
+            <a href="/pages/install.html">Servicios</a>
+            <a href="/pages/venta.html">Productos</a>
+            <a href="#">Contacto</a>
         </div>
         <div class="credit">Creado por <span>Santiago Serrato</span> | todos los derechos reservados</div>
-    </section>
+    </footer>
     <!-- footer section ends -->
 </body>
 </html>

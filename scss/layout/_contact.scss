@@ -1,0 +1,136 @@
+#contact{
+    padding: 0 10rem 4rem 10rem;
+    position: relative;
+}
+
+.contact {
+
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        background: $black;
+        gap: 1rem;
+        
+        .map{
+            flex: 1 1 45rem;
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+        
+        form{
+            flex: 1 1 45rem;
+            padding: 5rem 2rem;
+            text-align: center;
+
+            h3{
+                text-transform: uppercase;
+                font-size: 3.5rem;
+                color: #fff;
+            }
+            
+            .inputBox{
+                @include propiedades-flex(flex-start,center);
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                background: $bg;
+                border: $border;
+                
+                span{
+                    color: #fff;
+                    font-size: 2rem;
+                    padding-left: 2rem;
+                }
+                
+                input, textarea{
+                    width: 100%;
+                    padding: 2rem;
+                    font-size: 1.7rem;
+                    text-transform: none;
+                    background: none;
+                    color: #fff;
+                }
+                
+                textarea{
+                    resize: none;
+                    height: 18rem;  
+                }
+            }
+            
+        }
+    }
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Sección contact */
+
+.textContact{
+    width: 40%;
+    margin: 8rem auto;
+    p{
+        font-size: 5rem;
+    }
+}
+
+.contact1{
+
+    .row1{
+        @extend .row; 
+        margin: 0 auto;
+        max-width: 150rem;
+
+
+        form{
+            
+            flex: 1 1 45rem;
+            padding: 5rem 10rem;
+            text-align: center;
+
+            h3{
+                margin-bottom: 3rem;
+                text-transform: uppercase;
+                font-size: 3.5rem;
+                color: #fff;
+            }
+
+        .inputs{
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .inputBox1{
+            @include propiedades-flex(flex-start,center);
+            width: 100%;
+            margin-top: 2rem;
+            background: $bg;
+            border: $border;
+            
+            span{
+                color: #fff;
+                font-size: 2rem;
+                padding-left: 2rem;
+            }
+            
+            input, textarea{
+                padding: 2rem;
+                font-size: 1.7rem;
+                text-transform: none;
+                background: none;
+                color: #fff;
+            }
+            
+            textarea{
+                resize: none; 
+                height: 18rem; 
+            }
+        }
+    }
+}
+}

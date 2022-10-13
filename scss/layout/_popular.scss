@@ -1,0 +1,45 @@
+
+.popular{
+    margin: 8rem;
+    
+    h1{
+        margin-top: 5rem;
+    }
+    
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(20rem, 1fr));
+        gap: 1rem;
+        
+        img{
+            width: 80%;
+        }
+
+        h3{
+            color: $main-color;
+            font-size: 5rem;
+            font-weight: 400;
+            text-align: center;
+        }
+        .box{
+            @include propiedades-flex(flex-start,center);
+            flex-direction: column;
+            margin: 2rem;
+            padding: 3rem;
+            overflow: hidden;
+    
+            span{
+                background-color: #fff;
+                color: var(--main-color);
+                font-size: 2rem;
+                padding: 1rem;
+                margin: 1rem;
+            }
+            .img_container{
+                @include propiedades-flex(center,stretch);
+                height: 60%;
+            }
+        } 
+    }
+    
+}

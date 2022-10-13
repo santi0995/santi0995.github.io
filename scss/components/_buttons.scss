@@ -1,0 +1,49 @@
+.btn{
+    display: inline-block;
+    text-decoration: none;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #fff;
+     outline: 2px solid #fff;
+     position: relative;
+     overflow: hidden;
+     margin-top: 2rem;
+     padding: .9rem 3rem;
+     font-size: 1.7rem;
+     cursor: pointer;
+     transition: color .5s;
+     text-align: center;
+
+     &:hover{
+         color: $main-color;
+         &::before{
+             width: 150%;
+         }
+     }
+     &::before{
+         content:'';
+         position: absolute;
+         overflow: hidden;
+         top: 0;
+         left: -4.5rem;
+         width: 0;
+         height: 100%;
+         background-color: #fff;
+         transform: skewX(35deg);
+         z-index: -1;
+         transition: width .5s;
+     }
+}
+
+
+
+.btn_1{
+    @extend .btn;
+    background-color: $black;
+
+    &:hover{
+        letter-spacing: .2rem;
+        color: $main-color;
+        background-color: #fff;
+    }
+}

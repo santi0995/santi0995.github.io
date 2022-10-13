@@ -1,0 +1,40 @@
+@import "./base/typo";
+@import "./utilities/variables";
+@import "./base/reset";
+@import "./components/mouse";
+@import "./utilities/mixin";  
+@import "./components/buttons";
+
+/* Css general*/
+
+@import "./layout/header";
+@import "./layout/landing";
+@import "./layout/home";
+@import "./layout/about";
+@import "./layout/menu";
+@import "./layout/products";
+@import "./layout/review";
+@import "./layout/contact";
+@import "./layout/footer";
+
+/* Css about */
+
+@import "./components/grid";
+
+/* Css venta*/
+
+@import "./layout/popular";
+
+/* Css productos*/
+
+@import "./layout/install";
+
+/* media queries */
+
+@import "./layout/mediaQueries";
+
+/*
+prueba de optimizacion para moviles de google
+open-graph
+xml sitemaps
+*/

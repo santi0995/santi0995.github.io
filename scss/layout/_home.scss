@@ -1,0 +1,35 @@
+#home{
+    padding-bottom: 0px;
+}
+
+.home{
+    @include propiedades-flex(flex-start,center);
+    min-height: 100vh;
+    position: relative;
+    
+    .content{
+        max-width: 60rem;
+        padding-top: 10rem;
+        position: absolute;
+        
+        h1{
+            font-size: 6rem;
+            text-transform: uppercase;
+            color: #fff;
+            
+            span{
+                color: $main-color;
+                text-transform: uppercase;
+            }
+        }
+        
+        p{
+            margin-left: 0;
+            font-size: 2rem;
+            font-weight: lighter;
+            line-height: 1.8;
+            padding: 0rem 0;
+            color: #eee;
+        }
+    }
+}
