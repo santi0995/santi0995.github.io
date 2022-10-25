@@ -1,151 +1,137 @@
-footer{
-    background: $black;
-    text-align: center;
-    
+footer {
+  background: $black;
+  text-align: center;
 
-    .links{
-        display: none;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 2rem 0;
-        gap: 1rem;
-        
-        a{
-            padding: .7rem 2rem;
-            color: #fff;
-            border: $border;
-            font-size: 1.5rem;
-            
-            &:hover{
-                background-color: $main-color;
-            }
-        }
+  .links {
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+
+    a {
+      padding: 0.7rem 2rem;
+      color: #fff;
+      border: $border;
+      font-size: 1.5rem;
+
+      &:hover {
+        background-color: $main-color;
+      }
     }
-    
-    .credit{
-        font-size: 1.5rem;
-        color: #fff;
-        font-weight: 200;
-        padding: 1rem;
-        
-        span{
-            color:$main-color;
-        }
+  }
+
+  .credit {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 200;
+    padding: 1rem;
+
+    span {
+      color: $main-color;
     }
+  }
 }
 
 .share {
-    @include propiedades-flex(center, center);
-    margin: 1rem auto 2rem auto;
-    width: 100%;
-    height: 80px;
-    font-size: 40px;
+  @include propiedades-flex(center, center);
+  margin: 1rem auto 2rem auto;
+  width: 100%;
+  height: 80px;
+  font-size: 40px;
 }
 
-.social_icons{
-    @include propiedades-flex(center, center);
-    list-style: none;
+.social_icons {
+  @include propiedades-flex(center, center);
+  list-style: none;
 
-    li{
-    
-        a {
-            position: relative;
-            @include propiedades-flex(center, center);
-            width: 50px;
-            height: 50px;
-            background: #fff;
-            transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
-            transition: 0.5s;
-            box-shadow: -20px 20px 10px rgb(0, 0, 0 / 50%);
-            text-decoration: none;
-            color: #555;
-    
-            &::before {
-                content: "";
-                position: absolute;
-                top: 10px;
-                left: -20px;
-                height: 100%;
-                width: 20px;
-                background: #b2b2b2;
-                transition: 0.5s;
-                transform: rotate(0deg) skewY(-45deg);
-            }
-    
-            &::after {
-                content: "";
-                position: absolute;
-                bottom: -20px;
-                left: -10px;
-                height: 20px;
-                width: 100%;
-                background: #e5e5e5;
-                transition: 0.5s;
-                transform: rotate(0deg) skewX(-45deg);
-            }
-    
-            &:hover {
-                transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-                box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
-            }
-        }
-    
-        img{
-            width: 40px;
-            height: 40px;
-        } 
+  li {
+    a {
+      position: relative;
+      @include propiedades-flex(center, center);
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+      transition: 0.5s;
+      box-shadow: -20px 20px 10px rgb(0, 0, 0 / 50%);
+      text-decoration: none;
+      color: #555;
 
-        &:hover:nth-child(1){
+      &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: -20px;
+        height: 100%;
+        width: 20px;
+        background: #b2b2b2;
+        transition: 0.5s;
+        transform: rotate(0deg) skewY(-45deg);
+      }
 
-            a {
-                background-color: $facebook;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: -10px;
+        height: 20px;
+        width: 100%;
+        background: #e5e5e5;
+        transition: 0.5s;
+        transform: rotate(0deg) skewX(-45deg);
+      }
 
-                &::before {
-                    background-color: $facebook;
-                }
-
-                &::after {
-                    background-color: $facebook;
-                }
-            }
-        } 
-        &:hover:nth-child(2){
-
-            a {
-                background-color: $whatssap;
-
-                &::before {
-                    background-color: $whatssap;
-                }
-
-                &::after {
-                    background-color: $whatssap;
-                }
-            }
-        } 
-        &:hover:nth-child(3){
-
-            a {
-                background-color: $milanuncios;
-
-                &::before {
-                    background-color: $milanuncios;
-                }
-
-                &::after {
-                    background-color: $milanuncios;
-                }
-            }
-        } 
+      &:hover {
+        transform: perspective(1000px) rotate(-30deg) skew(25deg)
+          translate(20px, -20px);
+        box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+      }
     }
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    &:hover:nth-child(1) {
+      a {
+        background-color: $facebook;
+
+        &::before {
+          background-color: $facebook;
+        }
+
+        &::after {
+          background-color: $facebook;
+        }
+      }
+    }
+    &:hover:nth-child(2) {
+      a {
+        background-color: $whatssap;
+
+        &::before {
+          background-color: $whatssap;
+        }
+
+        &::after {
+          background-color: $whatssap;
+        }
+      }
+    }
+    &:hover:nth-child(3) {
+      a {
+        background-color: $milanuncios;
+
+        &::before {
+          background-color: $milanuncios;
+        }
+
+        &::after {
+          background-color: $milanuncios;
+        }
+      }
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-

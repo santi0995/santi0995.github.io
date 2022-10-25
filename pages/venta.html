@@ -12,6 +12,8 @@
     <!--Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="../images/favicon_io/favicon.ico">
     <title>Catálogo de productos | Clima Service</title>
 </head>
 <body>
@@ -32,8 +34,21 @@
                 <a href="../pages/contact.html">Contacto</a>
             </nav>
     
-            <div class="icons">
-                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="icons" id="nav1">
+                <a href="#" class="nav_cart">
+                    <div class="fas fa-shopping-cart cartIcon" id="cart-btn"></div>
+                </a>
+                <label for="menu1" class="nav__hamburguer">
+                    <div class="fas fa-bars nav_icon" id="cart-btn"></div>
+                </label>
+                <input type="checkbox" id="menu1" class="nav_input">
+                <div class="nav_menu">
+                    <a href="/index.html"> Inicio</a>
+                    <a href="/pages/about.html">Sobre nosotros</a>
+                    <a href="/pages/install.html">Servicios</a>
+                    <a href="/pages/venta.html">Productos</a>
+                    <a href="/pages/contact.html">Contacto</a>
+                </div>
             </div>
     
         </header>

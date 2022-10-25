@@ -1,65 +1,63 @@
-.heading{
-    text-align: center;
-    color: #fff;
+.heading {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+
+  span {
+    color: $main-color;
     text-transform: uppercase;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-    font-size: 4rem;
-    
-    span{
-        color: $main-color;
-        text-transform: uppercase;
-    }
+  }
 }
 
-#menu{
-    padding: 0 10rem;
+#menu {
+  padding: 0 10rem;
 }
 
-.menu{
+.menu {
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    .box {
+      padding: 5rem;
+      text-align: center;
+      border: $border;
 
-    .box-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-        gap: 1.5rem;
-        .box{
-            padding: 5rem;
-            text-align: center;
-            border: $border;
-            
-            &:hover{
-                background: #fff;
-            }
-            
-            &:hover > h3{
-                color: $black;
-            }
-            
-            img{
-                max-width: 40rem;
-                max-height: 40rem;
-            }
-            h3{
-                color: #fff;
-                font-size: 3rem;
-                padding: 1.5rem 0;
-            }
-        }
-    } 
-        
-    
-    .btn{
-        text-transform: uppercase;
-        letter-spacing: 2px;
+      &:hover {
+        background: #fff;
+      }
+
+      &:hover > h3 {
+        color: $black;
+      }
+
+      img {
+        max-width: 40rem;
+        max-height: 40rem;
+      }
+      h3 {
         color: #fff;
-        outline: 2px solid #fff;
-        position: relative;
-        margin-top: 2rem;
-        display: inline-block;
-        padding: .9rem 3rem;
-        font-size: 1.7rem;
-        background: $main-color;
-        cursor: pointer;
-        transition: color .5s;
+        font-size: 3rem;
+        padding: 1.5rem 0;
+      }
     }
+  }
+
+  .btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    outline: 2px solid #fff;
+    position: relative;
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    background: $main-color;
+    cursor: pointer;
+    transition: color 0.5s;
+  }
 }

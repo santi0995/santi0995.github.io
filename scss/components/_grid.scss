@@ -1,100 +1,94 @@
-.imgContainer{
-    height: 100%;
-    overflow: hidden;
-    
-    .text{
-        font-size: 2.5rem;
-        width: 400px;
-        margin: 5rem auto;
-        text-align: justify;
-    }
-        
-}
+.imgContainer {
+  height: 100%;
+  overflow: hidden;
 
-.textContainer{
-    margin: 0 auto;
-    padding: 3rem 0;
-    text-align: center;
-    width: 700px;
-    
-    .title{
-        color: #fff;
-        font-size: 8rem;
-        text-transform: uppercase;
-        z-index: 1;
-        font-weight: 300;
-    }
-
-    span{
-        color: $main-color;
-    }
-
-}
-
-p{
-    color: #fff;
-    margin: 1rem 3rem;
+  .text {
+    font-size: 2.5rem;
+    width: 400px;
+    margin: 5rem auto;
     text-align: justify;
-    font-size: 2rem;
+  }
 }
 
+.textContainer {
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  width: 700px;
 
+  .title {
+    color: #fff;
+    font-size: 8rem;
+    text-transform: uppercase;
+    z-index: 1;
+    font-weight: 300;
+  }
 
-.gridContainer{
-    grid-template-columns: 400px 400px;
-    grid-gap: .5rem;
-    display: grid;
-    gap: .5rem;
-    height: 100%;
-    margin: 2rem auto;
-    overflow: hidden;
-    padding: 2rem 0;
-    width: 800px;
-    
-    .item{
-        height: 400px;
-        width: 400px;
-        object-fit: cover;
-    }
+  span {
+    color: $main-color;
+  }
 }
 
-
-
-.gridRows{
-    grid-gap: .3rem;
-    display: grid;
-    gap: .3rem;
-    grid-template-columns: 200px 200px;
-    
-    .item2{
-        height: 195px;
-        width: 195px;
-        object-fit: cover;
-    }
+p {
+  color: #fff;
+  margin: 1rem 3rem;
+  text-align: justify;
+  font-size: 2rem;
 }
 
-.textContainer1{
-    margin: 0 auto;
-    padding: 3rem 0;
+.gridContainer {
+  grid-template-columns: 400px 400px;
+  grid-gap: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
+  height: 100%;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding: 2rem 0;
+  width: 800px;
+
+  .item {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+}
+
+.gridRows {
+  grid-gap: 0.3rem;
+  display: grid;
+  gap: 0.3rem;
+  grid-template-columns: 200px 200px;
+
+  .item2 {
+    height: 195px;
+    width: 195px;
+    object-fit: cover;
+  }
+}
+
+.textContainer1 {
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  width: 60%;
+  padding: 10rem;
+
+  .subTitle {
+    color: #fff;
+    font-size: 20rem;
     text-align: center;
-    width: 60%;
-    padding: 10rem;
-    
-    .subTitle{
-        color: #fff;
-        font-size: 20rem;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    
-    .history{
-        display: flex;
-    }
+    text-transform: uppercase;
+  }
+
+  .history {
+    display: flex;
+  }
 }
 
-.logo1{
-    display: flex;
-    filter: grayscale(100%);
-    margin: 0 auto 5rem;
-    width: 100px;
+.logo1 {
+  display: flex;
+  filter: grayscale(100%);
+  margin: 0 auto 5rem;
+  width: 100px;
 }

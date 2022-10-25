@@ -9,11 +9,12 @@
     <meta name="description" content="Adquiere tu sistema de aire acondicionado para casa o construye tus proyectos de climatización para edificios y grandes propieades. Nuestros expertos te guiarán de acuerdo a tus necesidades">
     <meta name="author" content="Santiago Serrato">
     <meta name="copyright" content="Clima service">
-
     <!--Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon_io/favicon.ico">
     <title>Home | Clima Service</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
             </a>
         </div>
 
-        <nav class="navbar">
+        <nav class="navbar" id="nav">
             <a href="#home"> Inicio</a>
             <a href="#about">Sobre nosotros</a>
             <a href="#menu">Servicios</a>
@@ -35,8 +36,21 @@
             <a href="#contact">Contacto</a>
         </nav>
 
-        <div class="icons">
-            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="icons" id="nav1">
+            <a href="#" class="nav_cart">
+                <div class="fas fa-shopping-cart cartIcon" id="cart-btn"></div>
+            </a>
+            <label for="menu1" class="nav__hamburguer">
+                <div class="fas fa-bars nav_icon" id="cart-btn"></div>
+            </label>
+            <input type="checkbox" id="menu1" class="nav_input">
+            <div class="nav_menu">
+                <a href="#home"> Inicio</a>
+                <a href="/pages/about.html">Sobre nosotros</a>
+                <a href="/pages/install.html">Servicios</a>
+                <a href="/pages/venta.html">Productos</a>
+                <a href="/pages/contact.html">Contacto</a>
+            </div>
         </div>
 
     </header>
@@ -85,7 +99,7 @@
             <div data-aos="fade-right" data-aos-duration="2000" class="box">
                 <img src="images/productos2.png" alt="instalacionEntrada">
                 <h3>Instalación y mantenimiento</h3>
-                <a href="install.html" class="btn">Solicitar Información</a>
+                <a href="pages/install.html" class="btn">Solicitar Información</a>
             </div>
             <div data-aos="fade-left"  data-aos-duration="2000" class="box">
                 <img src="images/productos3.png" alt="limpiezaEntrada">
@@ -258,7 +272,7 @@
                 </li>
             </ul>
         </div>
-        <h4 class="credit">Tel:<span> 698 54 92 21 - 693 93 30 95</span></h4>
+        <h4 class="credit">Tel:<span> (+34)698 54 92 21 - (+34)693 93 30 95</span></h4>
         <h4 class="credit">Email:<span> climaservice@gmail.com</span></h4>
         
         <div class="links">

@@ -1,33 +1,33 @@
 .mouse {
-    position: absolute;
-    bottom: 2rem;
-    right: 2rem;
-    width: 4rem;
-    height: 8rem;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    display: flex;
-    z-index: 99999;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 8rem;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  display: flex;
+  z-index: 99999;
 }
 
 .mouse-wheel {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    color: #fff;
-    border-radius: 50%;
-    margin: auto;
-    animation: move-wheel 1s linear infinite;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 1s linear infinite;
 }
 
 @keyframes move-wheel {
-    0% {
-        opacity: 0;
-        transform: translateY(-1rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(1rem);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
 }
